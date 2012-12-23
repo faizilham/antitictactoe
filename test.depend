@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1354386326 source:f:\lailatul_coding\sfml\test\main.cpp
+	"game.h"
+
+1354966685 f:\lailatul_coding\sfml\test\headers.h
+	<iostream>
+	<string>
+	<sstream>
+	<cassert>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<SFML/Audio.hpp>
+
+1354966430 f:\lailatul_coding\sfml\test\game.h
+	<SFML/Graphics.hpp>
+	"ObjectManager.h"
+	"imagemanager.h"
+	"field.h"
+
+1354969067 source:f:\lailatul_coding\sfml\test\game.cpp
+	"headers.h"
+	"game.h"
+	"cursor.h"
+
+1354946614 f:\lailatul_coding\sfml\test\visibleobject.h
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1354967450 source:f:\lailatul_coding\sfml\test\field.cpp
+	"headers.h"
+	"field.h"
+	"game.h"
+
+1354965474 f:\lailatul_coding\sfml\test\field.h
+	"VisibleObject.h"
+
+1354961292 source:f:\lailatul_coding\sfml\test\visibleobject.cpp
+	"headers.h"
+	"VisibleObject.h"
+
+1354951803 f:\lailatul_coding\sfml\test\objectmanager.h
+	<SFML/Graphics.hpp>
+	<iostream>
+	<map>
+	"VisibleObject.h"
+
+1354952839 source:f:\lailatul_coding\sfml\test\objectmanager.cpp
+	"headers.h"
+	"ObjectManager.h"
+
+1354949551 f:\lailatul_coding\sfml\test\imagemanager.h
+	<SFML/Graphics.hpp>
+
+1354949667 source:f:\lailatul_coding\sfml\test\imagemanager.cpp
+	"headers.h"
+	"imagemanager.h"
+
+1354960873 source:f:\lailatul_coding\sfml\test\cursor.cpp
+	"headers.h"
+	"cursor.h"
+	"game.h"
+
+1354952022 f:\lailatul_coding\sfml\test\cursor.h
+	"VisibleObject.h"
+
+1354966718 source:f:\lailatul_coding\sfml\test\headers.cpp
+	"headers.h"
+
